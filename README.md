@@ -1,6 +1,6 @@
-# Instagram Profile Search
+# Instagram Profile Search and ID Lookup
 
-This script allows you to search for an Instagram profile using either the user ID or the username. It utilizes the Instagram API to retrieve profile information based on the provided input.
+This script allows you to search for an Instagram profile using user ID or retrieve a profile's ID by username. It utilizes the Instagram API to retrieve profile information based on the provided input.
 
 ## Prerequisites
 - Python 3.x
