@@ -23,7 +23,7 @@ To obtain your Instagram session ID, you can follow these steps:
 ## Usage
 1. Clone the repository or download the script.
 2. Install the required dependencies by running `pip install requests` in your terminal.
-3. Run the script by executing `python script.py` in your terminal.
+3. Run the script by executing `python ig-lookup.py` in your terminal.
 4. Input your Instagram session ID.
 
 You will be prompted to choose the search method: either by user ID or by username. Provide the required information and follow the instructions to retrieve the desired Instagram profile username or user ID.
