@@ -40,7 +40,7 @@ This project is licensed under the [Creative Commons Attribution-NonCommercial 4
 - [@AyalX](https://github.com/AyalX) on GitHub.
 
 ## Contributions
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/AyalX/Instagram-ID-Lookup/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/AyalX/Instagram-Lookup/issues) if you want to contribute.
 
 ## Show your support
 Give a ⭐️ if this project helped you!
