@@ -4,7 +4,6 @@ This script allows you to search for an Instagram profile using user ID or retri
 
 ## Prerequisites
 - Python 3.x
-- Requests library (`pip install requests`)
 
 ## Session ID
 In order to use this script, you need to provide your Instagram session ID. The session ID is a unique identifier associated with your Instagram login session, and it is required to authenticate your requests to the Instagram API.
@@ -22,11 +21,8 @@ To obtain your Instagram session ID, you can follow these steps:
 
 ## Usage
 1. Clone the repository or download the script.
-2. Install the required dependencies by running `pip install requests` in your terminal.
-3. Run the script by executing `python ig-lookup.py` in your terminal.
-4. Input your Instagram session ID.
-
-You will be prompted to choose the search method: either by user ID or by username. Provide the required information and follow the instructions to retrieve the desired Instagram profile username or user ID.
+2. Install the required dependencies by running `pip install -r requirements.txt` in your terminal.
+3. Run the script by executing `python3 ig-lookup.py --session [SESSION_ID] {--username [USERNAME] OR --userid [USERID]} ` in your terminal.
 
 Please note that the session ID will eventually expire.
 
