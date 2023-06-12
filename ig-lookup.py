@@ -2,6 +2,7 @@ import requests
 from pyfiglet import Figlet
 from termcolor import colored
 from argparse import ArgumentParser, Namespace
+import colorama
 
 
 def print_hi(header):
@@ -58,6 +59,7 @@ def find_instagram_id_by_username(username):
 
 def main():
     # session_id = input("Enter your Instagram session ID: ")
+    colorama.init()
     print_hi("Instagram-lookup")
     args = readargs()
     # choice = input("[*] Enter '1' to search by user ID, or '2' to search by username: ")
