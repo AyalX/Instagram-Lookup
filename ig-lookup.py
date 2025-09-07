@@ -26,7 +26,7 @@ def find_instagram_id_by_username(username):
         return None
 
 def main():
-    session_id = input("Enter your Instagram session ID: ")
+    session_id = input("Enter your Instagram session ID: 4488 ")
     choice = input("Enter '1' to search by user ID, or '2' to search by username: ")
     if choice == '1':
         user_id = input("Enter the user ID to search for: ")
