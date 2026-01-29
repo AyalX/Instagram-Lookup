@@ -3,8 +3,9 @@ import requests
 def find_instagram_profile(user_id, session_id):
     url = f"https://i.instagram.com/api/v1/users/{user_id}/info/"
     headers = {
-        'User-Agent': 'Instagram 10.3.2 (iPhone7,2; iPhone OS 9_3_3; en_US; en-US; scale=2.00; 750x1334) AppleWebKit/420+',
-        'Cookie': f'sessionid={session_id}'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Cookie': f'sessionid={session_id}',
+        'X-IG-App-ID': '936619743392459'
     }
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
